@@ -59,7 +59,7 @@ class_names = [
 try:
     client = AsyncOpenAI(
         base_url="https://ark.cn-beijing.volces.com/api/v3",
-        api_key="f9f9e218-5f9d-4564-af7b-2eb63692ecdb",
+        api_key="",
     )
     logging.info("AsyncOpenAI客户端初始化成功")
 except Exception as e:
